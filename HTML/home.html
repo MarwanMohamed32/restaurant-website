@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- HEADER STYLE SHEET -->
+    <link rel="stylesheet" href="../CSS/header.css" />
+    <!-- HOME STYLE SHEET -->
+    <link rel="stylesheet" href="../CSS/home.css" />
+
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Grilli-Restaurant</title>
+    <link rel="icon" href="../SVG/favicon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="navbar" id="navbar">
+      <div class="logo">
+        <img src="../SVG/favicon.svg" alt="" />
+        <div class="logo-text">
+          <span class="logo-text-name">Grilli</span>
+          <span class="logo-text-restaurant">Restaurant</span>
+        </div>
+      </div>
+      <ul class="nav-items">
+        <li class="nav-item"><a href="home.html">Home</a></li>
+        <li class="nav-item">
+          <a href="../HTML/menu.html">Menus</a>
+        </li>
+        <li class="nav-items nav-item">
+          <a href="../HTML/about.html">About Us</a>
+        </li>
+        <li class="nav-items nav-item">
+          <a href="../HTML/contact.html">contact</a>
+        </li>
+      </ul>
+      <div class="btn">
+        <a href="../HTML/contact.html">Find a Table</a>
+      </div>
+    </header>
+    <main>
+      <!-- HERO -->
+      <article class="hero">
+        <div class="hero-title">
+          <h1>Amazing & Delicious</h1>
+          <img src="../SVG/separator.svg" alt="" />
+        </div>
+        <p>Where every flavor <br />tells a story</p>
+        <span>Come with family & feel the joy of mouthwatering food</span>
+        <div class="hero-button">
+          <a href="../HTML/menu.html">View Our Menu</a>
+        </div>
+      </article>
+      <!-- AWARDS -->
+      <article class="awards">
+        <div class="awards-title">
+          <h1>Why Choose Us</h1>
+          <img src="../SVG/separator.svg" alt="" />
+        </div>
+        <p>Our Strength</p>
+        <div class="awards-cards">
+          <!-- Card 1 -->
+          <div class="awards-card">
+            <img src="../images/features-icon-1.png" alt="" />
+            <h1>Hygienic Food</h1>
+            <p>
+              Cleanliness is not just an option, it's our recipe for
+              deliciousness.
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div class="awards-card">
+            <img src="../images/features-icon-2.png" alt="" />
+            <h1>Fresh Environment</h1>
+            <p>
+              Every meal is a tribute to the freshness of the environment around
+              us.
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div class="awards-card">
+            <img src="../images/features-icon-3.png" alt="" />
+            <h1>Skilled Chefs</h1>
+            <p>
+              At our restaurant, our skilled chefs turn ordinary ingredients
+              into extraordinary dishes.
+            </p>
+          </div>
+          <!-- Card 4 -->
+          <div class="awards-card">
+            <img src="../images/features-icon-4.png" alt="" />
+            <h1>Event & Party</h1>
+            <p>
+              Turn your celebrations into unforgettable events at our
+              restaurant.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="subscription">
+        <div class="subscription-container">
+          <div class="subscription-logo">
+            <img src="../SVG/favicon.svg" alt="" />
+            <div class="subscription-logo-text">
+              <span class="subscription-text-name">Grilli</span>
+              <span class="subscription-restaurant">Restaurant</span>
+            </div>
+          </div>
+          <p>Restaurant St, Delicious City, London 9578, UK</p>
+          <p>booking@grilli.com</p>
+          <p>Booking Request: +88-123-123456</p>
+          <p class="space">Open: 09:00 am - 01:00 pm</p>
+          <h2>Get News & Offers</h2>
+          <p>Subscribe us & Get 25% Off.</p>
+
+          <form action="" id="subscription-form">
+            <div class="input-field">
+              <span class="warning-sub">*</span>
+              <!-- User Icon -->
+              <i class="fa-regular fa-envelope"></i>
+              <input
+                type="text"
+                placeholder="Your Email"
+                name="email"
+                id="email"
+                required
+              />
+            </div>
+            <button
+              type="submit"
+              id="subscription-btn"
+              class="subscription-button"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+        <!-- FOOTER -->
+        <div class="details">
+          <div class="horizontal-box">
+            <i class="fas fa-location-dot"></i>
+            <p>Restaurant St, Delicious City, London 9578, UK</p>
+          </div>
+          <div class="horizontal-box">
+            <i class="fa-regular fa-clock"></i>
+            <p>Daily : 8.00 am to 10.00 pm</p>
+          </div>
+          <div class="horizontal-box">
+            <i class="fa-solid fa-phone"></i>
+            <p>+1 123 456 7890</p>
+          </div>
+          <div class="horizonta+l-box">
+            <i class="fa-regular fa-envelope"></i>
+            <p>booking@restaurant.com</p>
+          </div>
+        </div>
+      </article>
+    </main>
+    <!-- Circle -->
+    <div class="circle" id="backToTop">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
